@@ -1,12 +1,9 @@
 import './sass/main.scss';
-import axios from 'axios';
 import ApiService from './api';
 import imgCardTpl from './photoCard.hbs'
 import Notiflix from 'notiflix';
 
 const formRef = document.querySelector('.search-form');
-const inputRef = document.querySelector('[name="searchQuery"]');
-const btnSubmitRef = document.querySelector('[type="submit"]');
 const btnLoadMore = document.querySelector('.load-more');
 const galleryRef = document.querySelector('.gallery');
 
