@@ -3,6 +3,9 @@ import ApiService from './api';
 import imgCardTpl from './photoCard.hbs'
 import Notiflix from 'notiflix';
 
+
+console.log('К сожалению, сейчас некогда делать красиво, пока версия без Axios');
+
 const formRef = document.querySelector('.search-form');
 const btnLoadMore = document.querySelector('.load-more');
 const galleryRef = document.querySelector('.gallery');

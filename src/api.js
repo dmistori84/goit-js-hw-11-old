@@ -8,7 +8,7 @@ export default class Api {
     }
 
     fetchImage() { 
-        return fetch(`${BASE_URL}/?key=${API_key}&q=${this.searchQuery}&image_type=photo&per_page=5&page=${this.page}&orientation=horizontal&safesearch=true`)
+        return fetch(`${BASE_URL}/?key=${API_key}&q=${this.searchQuery}&image_type=photo&per_page=40&page=${this.page}&orientation=horizontal&safesearch=true`)
             .then(res => res.json())
             .then((data) => { 
                 this.page += 1;
